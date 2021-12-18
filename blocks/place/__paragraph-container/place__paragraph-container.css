@@ -1,0 +1,17 @@
+.place__paragraph-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+@media screen and (max-width: 730px) {
+    .place__paragraph-container {
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .place__paragraph-container {
+        max-width: 90%;
+    }
+}
