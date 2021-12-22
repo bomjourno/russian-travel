@@ -1,4 +1,4 @@
-.cover__background {
+.cover__background-link {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,11 @@
     /*на всех макетах соотношение ширины к длине картинки составляет 62.5% */
     min-height: min(740px, calc(100vw * 0.625));
     background: url('../../../images/cover-trains.jpg') no-repeat center / cover;
-  }
+    text-decoration: none;
+    color: #fff;
+}
 
-  .cover__background::before {
+.cover__background-link::before {
     content: '';
     position: absolute;
     top: 0;
@@ -22,9 +24,9 @@
     background: #2A2C2F;
     opacity: .3;
     transition: background, opacity .3s;
-  }
-  
-  .cover__background:hover::before {
+}
+
+.cover__background-link:hover::before {
     background: #2A2C2F;
-    opacity: .8;   
-  }
+    opacity: .8;  
+}
