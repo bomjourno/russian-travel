@@ -4,9 +4,7 @@
     grid-auto-rows: 1fr;
     max-width: 1184px;
     margin: 0 auto 92px;
-    padding: 0;
     gap: 16px 16px;
-    list-style-type: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,7 +28,7 @@
     .photo-grid {
         grid-template-columns: 1fr;
         max-width: 90%;
-        margin-bottom: 64px;
+        margin-bottom: 47px;
         gap: 12px;
     }
 }
